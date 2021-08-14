@@ -6,7 +6,7 @@ class Stone{
  this.x=x;
  this.y=y
  this.r=r
- this.body=Bodies.cirlce(x,y,r,options)
+ this.body=Bodies.circle(x,y,r,options)
  World.add(world,this.body)
  }
  show(){
@@ -15,8 +15,8 @@ class Stone{
      translate(pos.x,pos.y)
      strokeWeight(1)
      fill("white")
-     elipseMode(CENTER)
-     elipse(0,0,this.r,this.r)
+     ellipseMode(CENTER)
+     ellipse(0,0,this.r,this.r)
      noStroke()
      pop()
      
